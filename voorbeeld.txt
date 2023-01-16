@@ -1,0 +1,25 @@
+- aanmaken account op github
+- aanmaken van ssh keys en toevoegen aan github
+
+- toevoegen van je account in spreadsheet
+
+- 2 manieren : vanuit eigen repo of vanuit github repo
+
+manier 1 :
+- maak dir
+- ga naar dir
+- git init
+- maak een aanpassing
+- git status : bekijk de status
+- git add . (of git add <filenaam>)
+- git status
+- git commit -m "naam die je kiest voor je commit"
+
+// voeg de repo op github toe als remote
+- git remote add ...
+- git push origin main
+
+manier 2 :
+- git clone <naam van repo op github>
+...
+
